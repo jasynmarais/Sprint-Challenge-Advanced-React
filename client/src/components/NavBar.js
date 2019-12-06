@@ -8,6 +8,7 @@ export const NavBar = () => {
         e.preventDefault();
         setDarkMode(!darkMode);
     };
+    
     return (
         <nav className='navbar'>
             <h1>Women's World Cup Search Rankings</h1>
