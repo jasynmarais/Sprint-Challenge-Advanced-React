@@ -3,7 +3,7 @@ import React from 'react';
 export const Player = ({ player }) => {
     return (
         <div className='player-card'>
-            <h2>{player.id + 1}</h2>
+            <h3>{player.id + 1}</h3>
             <ul>
                 <li>
                     <span>Name:</span> {player.name}
